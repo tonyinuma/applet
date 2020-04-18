@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './zuve.svg';
+import React from 'react'; 
 import './App.css';
+
+function HelloWorld(props){
+  console.log(props)
+  return(
+    <div id="hello">{props.text}</div>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="pp">
-          Ya estoy aquí ♥
-        </p>
-        <a
-          className="App-link"
-          href="https://industriaszuve.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React JS
-        </a>
-      </header>
+      <h1>Hi World, This is my component: 
+        <HelloWorld text="Hola Tony"/>
+        <HelloWorld text="Hola Cindy"/>
+        <HelloWorld text="Hola Leone"/>
+        </h1>
     </div>
   );
 }
