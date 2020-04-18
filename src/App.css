@@ -1,7 +1,12 @@
-#hello{
-    border: 5px dotted tomato;
+body{
+    background-color: teal;
 }
 
 .App{
-    border: 5px solid springgreen;
+    border: 5px solid yellow;
+    color: white;
+}
+
+.house{
+    border-top: 5px solid yellow;
 }
