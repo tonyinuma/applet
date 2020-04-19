@@ -1,12 +1,22 @@
+
 body{
-    background-color: teal;
+    background-color: tomato;
 }
 
-.App{
-    border: 5px solid yellow;
-    color: white;
+#main{
+    text-align: center;
 }
 
-.house{
-    border-top: 5px solid yellow;
+#title{
+    font-size: 100px;
+    color: greenyellow; 
 }
+
+#card{ 
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+    border: solid 2px gray;
+    padding: 3%;
+}
+
