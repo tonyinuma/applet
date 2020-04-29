@@ -3,7 +3,7 @@
         "id" : 0,
         "title": "Task one",
         "description": "this is a first task",
-        "done":false
+        "done":true
     },
     {
         "id" : 1,
@@ -15,6 +15,6 @@
         "id" : 2,
         "title": "Task three",
         "description": "this is a third task",
-        "done":false
+        "done":true
     }
 ]
