@@ -2,18 +2,22 @@ import React, {Component} from 'react';
 
 export default class TaskForm extends Component {
 
+    // this is state of form
     state = {
         title: '',
         description: ''
     }
 
+    // event submit to send data
     onSubmit = e => {
-        console.log('state : ', this.state);
+        this.props.addTaks(this.state.title, this.state.description)
+        //console.log('state : ', this.state);
         e.preventDefault()
     }
 
+    // event on change input and text area
     onChange = e =>{
-        console.log(e.target.value, e.target.name)
+        //console.log(e.target.value, e.target.name)
         this.setState({ 
             [e.target.name]: e.target.value
         })
